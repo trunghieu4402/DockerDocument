@@ -1,0 +1,4 @@
+Kiểm soát dữ liệu được tải theo hướng ntn
+$rootScope biến cục bộ truy suất toàn thể trong app
+$rootScope.$broadcast('data-loaded') lệnh khi tất cả các lệnh phía trên chạy thì cái này mới chạy
+$scope.$on('data-loaded', function() {} khi data tải xong thì mới được truyền đi
